@@ -1,10 +1,10 @@
-
+/* using body universal selector*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/*body css start*/
 body {
   font-family: "Inter", sans-serif;
   background-color: #1A0B2E;
@@ -17,9 +17,11 @@ body {
     rgba(145, 0, 248, 1)
   );
 }
+/*header css start*/
 header {
   width: 100%;
 }
+/*nav css start*/
 nav {
   max-width: 1600px;
   height: 92px;
@@ -30,12 +32,14 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-
+/* header logo css start*/
 .logo img {
   width: 219px;
   height: 32px;
   object-fit: contain;
 }
+/*header logo css end*/
+/*menu css start*/
 .menu {
   list-style: none;
   display: flex;
@@ -53,6 +57,8 @@ nav {
 .menu a:hover {
   opacity: 0.8;
 }
+/*menu css end*/
+/*button css start*/
 .btn {
   width: 140px;
   height: 44px;
@@ -87,6 +93,9 @@ nav {
     background-position: 0% 50%;
   }
 }
+ /*button css end*/
+/*nav css end*/
+/*banner css start*/
 .banner {
   position: relative;
   height: 760px;
@@ -199,6 +208,9 @@ margin-right: 100px;
   color: #00ff9c;
   background-color: transparent;
 }
+/*banner css end*/
+/*header css end*/
+/*about css start*/
 .about{
   margin-left: 200px;
   margin-right: 200px;
@@ -226,6 +238,7 @@ margin-left: 150px;
   margin-bottom: 8px;
   
 }
+/*grid css start*/
 .stats {
   max-width: 1200px;
   margin: 0 auto;
@@ -251,6 +264,9 @@ margin-left: 150px;
   color: #b8a9d9;
   line-height: 20px;
 }
+/*grid css end*/
+/*about css end*/
+/*why chose css start*/
 .techwave {
   padding: 80px 20px;
   background: linear-gradient(180deg, #1e0838, #12051f);
@@ -298,6 +314,8 @@ margin-left: 150px;
   line-height: 1.6;
   color: #d6cbe8;
 }
+/*why chose css end*/
+/*featured css start*/
 .featured {
   padding: 80px 20px;
   background: linear-gradient(180deg, #1b0834, #12051f);
@@ -349,6 +367,8 @@ margin-left: 150px;
  font-size: 14px;
   color: #38f39c;
 }
+/*featured css end*/
+/*challenge css start*/
 .host-section {
   background: radial-gradient(circle at top, #2a0a4a, #12001f);
   padding: 80px 20px;
@@ -411,6 +431,8 @@ margin-left: 150px;
 .host-socials a:hover {
   background: #ff4fd8;
 }
+/*challenge css end*/
+/*footer css start*/
 .footer {
   background: url("../images/footer-bg.png") center / cover no-repeat;
   padding: 100px 20px 80px;
@@ -493,7 +515,8 @@ margin-left: 150px;
   list-style: none;
 }
 
-
+/*body css end*/
+/*footer css end*/
 
 
 
